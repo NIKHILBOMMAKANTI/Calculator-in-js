@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+
+<body>
+    <div class="Calculator">
+        <!-- <button onclick="Mode()">Mode</button> -->
+        <div class="Calculator-body">
+            <input type="text" name="Calculator" id="calculator-input">
+
+            <div class="cal-btn">
+                <button onclick="shownumber(7)">7</button>
+                <button onclick="shownumber(8)">8</button>
+                <button onclick="shownumber(9)">9</button>
+                <button onclick="shownumber('+')">+</button>
+            </div>
+
+            <div class="cal-btn">
+                <button onclick="shownumber(4)">4</button>
+                <button onclick="shownumber(5)">5</button>
+                <button onclick="shownumber(6)">6</button>
+                <button onclick="shownumber('-')">-</button>
+            </div>
+
+            <div class="cal-btn">
+                <button onclick="shownumber(1)">1</button>
+                <button onclick="shownumber(2)">2</button>
+                <button onclick="shownumber(3)">3</button>
+                <button onclick="shownumber('*')">*</button>
+            </div>
+
+            <div class="cal-btn">
+                <button onclick="clearinput()">C</button>
+                <button onclick="shownumber(0)">0</button>
+                <button onclick="calculate()">=</button>
+                <button onclick="shownumber('/')">/</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="Calculator.js"></script>
+</body>
+
+</html>
